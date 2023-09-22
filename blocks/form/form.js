@@ -124,7 +124,7 @@ function applyRules(form, rules) {
 
 function fill(form) {
   const { action } = form.dataset;
-  if (action === '/tools/bot/register-form') {
+  if (action === '/franklin/email-form') {
     const loc = new URL(window.location.href);
     form.querySelector('#owner').value = loc.searchParams.get('owner') || '';
     form.querySelector('#installationId').value = loc.searchParams.get('id') || '';
