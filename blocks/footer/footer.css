@@ -1,7 +1,9 @@
 footer {
   padding: 2rem;
-  background-color: var(--overlay-background-color);
+  background-color: var(--background-color-black);
   font-size: var(--body-font-size-s);
+  color: white;
+  
 }
 
 footer .footer {
@@ -9,6 +11,43 @@ footer .footer {
   margin: auto;
 }
 
+.footer > div:first-child > div:first-child {
+  display: flex;
+ 
+}
+
 footer .footer p {
   margin: 0;
+  font-family: var(--fontFamilySansSerif);
+  font-size: 9pt;
+  margin-top: 1em;
+}
+
+footer p > a {
+  color:white !important;
+  text-decoration: underline !important;
+
+}
+
+footer ul {
+  list-style: none;
+  gap:2em;
+  width: 70%;
+  padding-inline-start:0;
+}
+
+footer ul li a {
+  color:white !important;
+  text-decoration: none;
+}
+
+footer .icon-logo {
+  width: 30%;
+  height: 32px;
+}
+
+@media (min-width:768px) {
+  footer ul {
+    display: flex;
+  }
 }

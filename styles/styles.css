@@ -16,6 +16,7 @@
   --link-hover-color: #136ff6;
   --background-color: #ebe7e7;
   --overlay-background-color: #eee;
+  --background-color-black: black;
   --highlight-background-color: #ccc;
   --text-color: #5f044b;
 
@@ -23,6 +24,7 @@
   --body-font-family: roboto, roboto-fallback;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fontFamilySansSerif: 'Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif'
 
   /* body sizes */
   --body-font-size-m: 22px;

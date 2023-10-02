@@ -1,0 +1,37 @@
+.social {
+  
+  font-size: var(--body-font-size-s);
+  color: white;
+  width: 140px;
+  text-align: left;
+  
+  
+  
+}
+
+.social ul {
+  background-color: #bcbcbc;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap:0.5em;
+}
+
+.social ul li {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.social ul li a {
+  color:white !important;
+  text-decoration: none;
+  margin-left: 0px;
+ 
+}
+
+@media (min-wdth:768px) {
+  .social > div:first-child > div:first-child { 
+    display: flex !important;
+  }
+}
+

@@ -53,6 +53,11 @@ header nav p {
   line-height: 1;
 }
 
+header nav .icon-logo-dk {
+  width: 87px;
+  height: 37px;
+}
+
 header nav a:any-link {
   color: currentcolor;
 }
@@ -174,6 +179,16 @@ header nav .nav-sections ul  {
   font-weight: 500;
 }
 
+header nav .nav-sections .icon-search  {
+    background-color: #ebebeb8a;
+    border: none;
+    border-radius: 0;
+    color: var(--textColor,#202020);
+    font-size: var(--fontSizeXSmall,9pt);
+    height: 40px;
+    
+}
+
 header nav .nav-sections ul > li {
   font-weight: 700;
 }
@@ -228,6 +243,7 @@ header nav .nav-sections ul > li > ul > li {
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
+    justify-content: center;
   }
 
   header nav .nav-sections > ul > li {
@@ -271,5 +287,12 @@ header nav .nav-sections ul > li > ul > li {
 
 /* tools */
 header nav .nav-tools {
-  grid-area: tools;
+  /* grid-area: tools; */
+  display: flex;
+  box-sizing: border-box;
+  background-color: darkgray;
+  height: 30px;
+  width: 145px;
+  
+  align-items: center;
 }
